@@ -28,4 +28,45 @@
         height: 27vh;
     }
 }
-
+@media only screen and (max-width: 795px){
+    .bottom-bg{
+        bottom: -310px;
+    }
+}
+@media only screen and (max-width: 759px){
+    .bottom-bg{
+        bottom: -338px;
+    }
+}
+@media only screen and (max-width: 610px){
+    .bottom-bg{
+        bottom: -370px;
+        right: -461px;
+    }
+    .top-bg{
+        left: -369px;
+    }
+    .container{
+        left: 6px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .container{
+        left: 9px;
+    }
+}
+@media only screen and (max-width: 460px){
+    .container{
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 405px){
+    .container{
+        left: 1px;
+    }
+}
+@media only screen and (max-width: 390px){
+    .container{
+        left: 4px;
+    }
+}
