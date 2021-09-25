@@ -11,3 +11,21 @@
         height: 27vh;
     }
 }
+@media only screen and (max-width: 890px){
+    .top-bg{
+        height: 691px;
+        width: 733px;
+        top: -290px;
+        left: -330px;
+    }
+    .bottom-bg{
+        height: 691px;
+        width: 733px;
+        bottom: -271px;
+        right: -359px;
+    }
+    .card-bg{
+        height: 27vh;
+    }
+}
+
