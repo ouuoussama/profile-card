@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1030px){
+    .top-bg{
+        height: 900px;
+        width: 900px;
+    }
+    .bottom-bg{
+        height: 900px;
+        width: 900px;
+    }
+    .card-bg{
+        height: 27vh;
+    }
+}
