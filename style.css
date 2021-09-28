@@ -53,11 +53,7 @@
 
 */
 body{
-    display: flex;
     height: 100vh;
-    align-items: center;
-    align-items: center;
-    justify-content: center;
     background-color:var(--Dark-cyan) ;
     background-image: 
         url(images/bg-pattern-top.svg),
@@ -66,6 +62,12 @@ body{
         top -491px right 991px, /* this positions the first image */
         bottom -591px right -300px; /* this positions the second image */
     background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    align-items: center ;
+    height: 90%;
+    justify-content: center;
 }
 .container{
     width: 330px;
@@ -113,4 +115,8 @@ body{
      margin-right: auto;*/
     display: flex;
      justify-content: center;
+ }
+ footer{
+     text-align: center;
+     font-size: 14px;
  }
