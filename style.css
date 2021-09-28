@@ -12,7 +12,7 @@
     --Dark-grayish-blue:hsl(227, 10%, 46%);
     --Dark-gray:hsl(0, 0%, 59%);
 }
-body{
+/*body{
     overflow: hidden;
     background: var(--Dark-cyan);
     height: 100vh;
@@ -50,25 +50,31 @@ body{
     position: relative;
     z-index: 2;
 }
-.card-bg{
-   height: 20vh;
-    background: url(images/bg-pattern-card.svg);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-img{
-    border-radius: 50%;
-    transform: translateY(-50px);
-    border: 7px solid white;
-}
-.img-1{
-    /*position: absolute;
-    width: 29%;
-    display: block;
-    margin-left:auto;
-    margin-right: auto;*/
+
+*/
+body{
     display: flex;
+    height: 100vh;
+    align-items: center;
+    align-items: center;
     justify-content: center;
+    background-color:var(--Dark-cyan) ;
+    background-image: 
+        url(images/bg-pattern-top.svg),
+        url(images/bg-pattern-bottom.svg);
+    background-position:
+        top -491px right 991px, /* this positions the first image */
+        bottom -591px right -300px; /* this positions the second image */
+    background-repeat: no-repeat;
+}
+.container{
+    width: 330px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+.card-bg{
+    background-image: url(images/bg-pattern-card.svg);
 }
 .name{
     margin-top:-15px;
@@ -88,3 +94,23 @@ img{
     padding: 20px 40px;
     text-align: center;
 }
+.card-bg{
+    height: 20vh;
+     background: url(images/bg-pattern-card.svg);
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+ }
+ img{
+     border-radius: 50%;
+     transform: translateY(-50px);
+     border: 7px solid white;
+ }
+ .img-1{
+     /*position: absolute;
+     width: 29%;
+     display: block;
+     margin-left:auto;
+     margin-right: auto;*/
+    display: flex;
+     justify-content: center;
+ }
